@@ -1,1 +1,19 @@
 @import url(variables.css);
+.container {
+    background: #f3f2f0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph {
+    padding: 25px;
+    background: #eae6e3;
+    box-sizing: content-box;
+    display: flex;
+    flex-grow:0.3;
+    flex-basis: 0;
+    flex-flow: column wrap;
+
+}
