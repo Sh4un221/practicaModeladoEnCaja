@@ -1,17 +1,51 @@
 @import url(variables.css);
 .container {
+    flex-grow: auto;
+    flex-basis: auto;
     border: 1px solid black;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
-.table1 {
-    flex-grow: 0.7;
-    flex-basis: 0;
-    border:1px solid black;
+
+.tablap {
+    flex-grow: 0.5;
+    display: flex;
+    background: #dddddd;
+    justify-content: space-around;
 }
+
+.table1 .inicio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.table1 .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.table1 .servicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.table1 .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .table2 {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
 
 
