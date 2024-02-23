@@ -19,8 +19,7 @@ flex-direction: row;
     justify-content: center;
 }
 .contenido {
-    flex-grow: 0.7;
-    flex-basis: 0;
+    flex-grow: 0.1;
     display: flex;
     justify-content: space-evenly;
 }
@@ -31,8 +30,7 @@ flex-direction: row;
 }
 
 .lenguajes {
-    flex-grow: 0.2;
-    flex-basis: 0;
+    flex-grow: 0.01;
     display: flex;
     flex-direction: row;
     align-content: flex-end;
