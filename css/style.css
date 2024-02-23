@@ -1,1 +1,26 @@
 @import url(variables.css);
+.container{
+display: flex;
+flex-direction: row;
+}
+.imagen {
+    flex-grow: 0.1;
+    flex-basis: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.apartados{
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido {
+    flex-grow: 0.7;
+    flex-basis: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
