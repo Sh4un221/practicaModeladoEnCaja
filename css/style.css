@@ -1,1 +1,17 @@
 @import url(variables.css);
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.table1 {
+    flex-grow: 0.7;
+    flex-basis: 0;
+    border:1px solid black;
+}
+.table2 {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
