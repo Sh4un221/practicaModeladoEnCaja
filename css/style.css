@@ -1,7 +1,6 @@
 @import url(variables.css);
 .container {
     width: 25%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
