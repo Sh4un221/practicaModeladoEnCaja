@@ -1,70 +1,95 @@
 @import url(variables.css);
 .container {
-        border: 1px solid black;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.tablap {
-    flex-grow: 0.5;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-.table1 {
-    flex-grow: 1;
-    flex-basis: 0;
-    background: #dddddd;
+    width: 50%;
     border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-}
-
-.table1 .inicio {
-    border: 3px solid white;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
 }
 
-.table1 .about {
-    border: 3px solid white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.table1 .servicio {
-    border: 3px solid white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.table1 .contacto {
-    border: 3px solid white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.table2 {
-    
+.inicio {
+    padding: 0px 15px 0px;
     background: #dddddd;
-    border:1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.inicio .p{
+    flex-grow: 1;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
-    border: 3px solid white;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-.table2 >button {
-    background-color: white;
-    text-decoration: bold;
-    width: auto;
-    height: auto;
 
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.about {
+    padding: 0px 15px 0px;
+    background: #dddddd;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.about .p{
+    flex-grow: 1;
+    padding: 0px 250px 0px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about .button {
+    display: flex;
+}
+
+.servicios {
+    padding: 0px 15px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    background: #dddddd;
+}
+
+.servicios .p{
+    flex-grow: 1;
+    padding: 0px 250px 0px 0px;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.servicios .button {
+    display: flex;
+}
+
+.contacto {
+    padding: 0px 15px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background: #dddddd;
+}
+
+.contacto .p{
+    padding: 0px 250px 0px 0px;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contacto .button {
+    display: flex;
+    
+}
+.button >button {
+    width: auto;
+    font-size: medium;
+    background: #ffffff;
 }
 
 
