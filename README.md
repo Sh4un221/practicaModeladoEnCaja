@@ -1,0 +1,1 @@
+![](https://github.com/Sh4un221/practicaModeladoEnCaja/blob/practicaFlexbox/storage/img/imagenFlexbox.jpeg)
