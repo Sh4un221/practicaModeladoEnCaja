@@ -1,24 +1,59 @@
 @import url(variables.css);
+
 .container {
     width: 100%;
     height: 100vh;
     display: flex;
 }
+
 .box1 {
-    text-overflow: ellipsis;
+    padding:0px 0px 0px 5px;
     width: 20%;
     display: flex;
     flex-flow: column wrap;
     border: 1px solid black;
-    
+
 }
+
 .box1 .table {
-    
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
+    padding:0px 5px 0px 5px;
 }
+
+
+.box1 .table .tbox1 .paragraph {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box1 .table .tbox1>p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 .table .tbox2 .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .table .tbox2 .subitem {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.box1 .table .tbox3 .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .box1 .footerbox {
     display: flex;
-    align-self: end;
+    justify-content: center;
 }
