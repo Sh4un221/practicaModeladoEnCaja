@@ -1,4 +1,5 @@
 @import url(variables.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -11,40 +12,141 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #93d9e9;
 }
+
 .boxs {
     display: flex;
-    flex-flow: row wrap;
     border: 1px solid green;
+    gap: 1rem;
 }
+
 .box1 {
-    padding: 1rem;
+    background: white;
+
     min-height: 480px;
 }
-.box1 >header {
-    border: 1px solid black;
+
+.box1>header {
+    background: salmon;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box1 > article {
+
+.box1>article {
     height: 70%;
 }
-.box1 .content{
+
+.box1 .content {
     height: 100%;
-    border: 1px solid black;
     box-sizing: border-box;
-   
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1rem;
+
 }
-.box1 .content>p {
-display: flex;
-flex-flow: column wrap;
-vertical-align: center;
+
+.box1>article .content>p {
+    padding: 0.6rem;
+    border-bottom: 1px solid gray;
 }
+
 .box1 .button {
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box1 .button>button {
+    background: grey;
+    text-decoration: underline;
+}
+
+.box2 {
+    background: white;
+    min-height: 480px;
+}
+
+.box2>header {
+    background: salmon;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2>article {
+    height: 70%;
+}
+
+.box2 .content {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1rem;
+
+}
+
+.box2>article .content>p {
+    padding: 0.6rem;
+    border-bottom: 1px solid gray;
+}
+
+.box2 .button {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 .button>button {
+    background: grey;
+    text-decoration: underline;
+}
+
+.box3 {
+    background: white;
+    min-height: 480px;
+}
+
+.box3>header {
+    background: salmon;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3>article {
+    height: 70%;
+}
+
+.box3 .content {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1rem;
+
+}
+
+.box3>article .content>p {
+    padding: 0.6rem;
+    border-bottom: 1px solid gray;
+}
+
+.box3 .button {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 .button>button {
+    background: grey;
+    text-decoration: underline;
 }
