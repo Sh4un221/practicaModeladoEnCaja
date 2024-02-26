@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 10vh;
     background: #f2f2f2;
 }
 
@@ -23,7 +23,7 @@ article {
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 100vh;
+    height: 85vh;
     background: #aaaaaa;
     order: 1;
 }
@@ -31,21 +31,23 @@ article {
 nav {
     display: flex;
     width: 25%;
-    height: 100vh;
+    height: 85vh;
     flex-direction: column;
     background: #bbbbbb;
 }
 aside {
     display: flex;
     width: 25%;
-    height: 100vh;
+    height: 85vh;
     background: #cccccc;
     order: 2;
 }
 footer {
+    position: sticky;
+    bottom: 1;
     display: flex;
     width: 100%;
-    height: 5rem;
+    height: 5vh;
     align-items: center;
     justify-content: center;
     background:#f2f2f2;
