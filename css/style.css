@@ -17,17 +17,18 @@
 
 .boxs {
     display: flex;
-    border: 1px solid green;
     gap: 1rem;
 }
 
 .box1 {
     background: white;
-
+    border-radius: 2%;
     min-height: 480px;
 }
 
 .box1>header {
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
     background: salmon;
     height: 20%;
     display: flex;
