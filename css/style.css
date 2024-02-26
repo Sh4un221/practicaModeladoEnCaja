@@ -22,13 +22,16 @@
 
 .box1 {
     background: white;
-    border-radius: 2%;
     min-height: 480px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
 }
 
 .box1>header {
-    border-top-right-radius: 2%;
-    border-top-left-radius: 2%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     background: salmon;
     height: 20%;
     display: flex;
@@ -51,27 +54,35 @@
 
 .box1>article .content>p {
     padding: 0.6rem;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #fafafa;
 }
 
 .box1 .button {
     height: 10%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 }
 
 .box1 .button>button {
-    background: grey;
-    text-decoration: underline;
+    border-radius: 5px;
+    background:#f0f0f0;
+    width: 7rem;
+    height: 2rem;
 }
 
 .box2 {
     background: white;
     min-height: 480px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
 }
 
 .box2>header {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     background: salmon;
     height: 20%;
     display: flex;
@@ -94,7 +105,7 @@
 
 .box2>article .content>p {
     padding: 0.6rem;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #fafafa;
 }
 
 .box2 .button {
@@ -105,16 +116,24 @@
 }
 
 .box2 .button>button {
-    background: grey;
-    text-decoration: underline;
+    border-radius: 5px;
+    background:#f0f0f0;
+    width: 7rem;
+    height: 2rem;
 }
 
 .box3 {
     background: white;
     min-height: 480px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 2px -1px rgba(0,0,0,0.75);
 }
 
 .box3>header {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     background: salmon;
     height: 20%;
     display: flex;
@@ -137,7 +156,7 @@
 
 .box3>article .content>p {
     padding: 0.6rem;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #fafafa;
 }
 
 .box3 .button {
@@ -148,6 +167,8 @@
 }
 
 .box3 .button>button {
-    background: grey;
-    text-decoration: underline;
+    border-radius: 5px;
+    background:#f0f0f0;
+    width: 7rem;
+    height: 2rem;
 }
