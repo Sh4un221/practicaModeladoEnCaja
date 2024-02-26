@@ -26,7 +26,8 @@
     overflow: scroll;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    
+    height: 80%;
 }
 
 
@@ -60,9 +61,13 @@
     justify-content: center;
 }
 
-.box1 .footerbox {
+.footerbox {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    
+    height: 10rem;
+    
 }
 .box2 {
     border: 1px solid black;
@@ -114,14 +119,20 @@
 .cardsbox {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 80%;
+
 }
 
 .card{
     border: 1px solid black;
-    width: 20rem;
+    width: 40rem;
+    height: 10rem;
     padding: 1rem;
+    margin: 8px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 
 }
 
@@ -140,8 +151,27 @@
     height: 1rem;
     background: black;
 }
-.bar {
+.bar1 {
     width:60%;
     height: 1rem;
     background: green;
 }
+.bar2 {
+    width:30%;
+    height: 1rem;
+    background: green;
+}
+.bar3 {
+    width:40%;
+    height: 1rem;
+    background: green;
+}
+.bar4 {
+    width:80%;
+    height: 1rem;
+    background: green;
+}
+.page{
+    padding: 2rem;
+    width: 100%;
+} 
