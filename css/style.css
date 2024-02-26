@@ -1,1 +1,52 @@
 @import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background: #f2f2f2;
+}
+
+main {
+    display: flex;
+    box-sizing: content-box;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background: #aaaaaa;
+    order: 1;
+}
+
+nav {
+    display: flex;
+    width: 25%;
+    height: 100vh;
+    flex-direction: column;
+    background: #bbbbbb;
+}
+aside {
+    display: flex;
+    width: 25%;
+    height: 100vh;
+    background: #cccccc;
+    order: 2;
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    background:#f2f2f2;
+}
