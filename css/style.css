@@ -1,4 +1,9 @@
 @import url(variables.css);
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .container {
     width: 100%;
@@ -75,15 +80,68 @@
     justify-content: space-between;
 }
 
-.box2 .table2 .tableitems {
-    width: 15%;
+.tableitems{
+    width: 10em;
     border: 1px solid black;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    position: absolute;
+    background:white;
+    right: 1rem;
+    top: 1rem;
+    opacity: 0;
 }
-.box2 .table2 .cardsbox {
-    border: 1px solid black;
+.tableitems.active{
+    opacity: 1;
+}
+.dropdown{
+    position: relative;
+}
+
+.b {
+    border-radius: 50%;
+    width:1.5rem;
+    background: yellow;
+    border:1px solid black;
+    cursor: pointer;
+}
+
+.dropdown > .b:focus + .tableitems{
+    opacity: 1;
+}
+
+.cardsbox {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.card{
+    border: 1px solid black;
+    width: 20rem;
+    padding: 1rem;
+
+}
+
+.card_top{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.arrow svg{
+    width: 1rem; 
+}
+
+.background-bar{
+    width: 100%;
+    height: 1rem;
+    background: black;
+}
+.bar {
+    width:60%;
+    height: 1rem;
+    background: green;
 }
