@@ -61,11 +61,12 @@
 }
 
 .footerbox {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    
-    height: 10rem;
+position:relative;
+overflow: scroll;
+bottom: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
     
 }
 .box2 {
@@ -177,9 +178,18 @@
     padding: 2rem;
     width: 100%;
     box-sizing: border-box;  
+    overflow: scroll;
 } 
 .content {
     padding: 1rem;
     display: flex;
     justify-content: row wrap;
+}
+
+.arrowdown svg{
+    width: 1rem; 
+}
+.arrowdown {
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;
 }
