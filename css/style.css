@@ -1,1 +1,30 @@
 @import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1000px;
+    height: 100vh;
+}
+.container >header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background: salmon;
+}
+.container >header >h3 {
+    color: aliceblue;
+}
+.container >header >h5 {
+    color: aliceblue;
+}
+.container >menu {
+    padding: 0 0 0 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+}
