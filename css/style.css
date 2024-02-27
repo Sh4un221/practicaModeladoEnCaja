@@ -4,9 +4,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .container {
     max-width: 1000px;
-    height: 100vh;
+    height: 90vh;
+    overflow: scroll;
 }
 .container >header {
     display: flex;
@@ -14,6 +20,7 @@
     align-items: center;
     justify-content: center;
     background: salmon;
+    padding: 2rem;
 }
 .container >header >h3 {
     color: aliceblue;
@@ -56,7 +63,43 @@ color: aliceblue;
     display: flex;
     flex-flow: column wrap;
     width: 30%;
+    background: #f1f1f1;
+    padding: 1rem;
 }
-.container .blog >aside .boximg {
+.container .blog >aside .boximg >img {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    justify-content: center;
+    align-self: center;
+    padding: 0.4rem;
+}
+.container .blog >aside .lorem1{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0.5rem;
+}
+.container .blog >aside .boximg2 >img {
+    display: flex;
+    width: 280px;
+    height: 100px;
+    align-self: center;
+    padding: 0.2rem;
+}
+.container .blog >article {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1rem;
 
+}
+.container >footer{
+    background:#dddddd;
+    width: 1000px;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
